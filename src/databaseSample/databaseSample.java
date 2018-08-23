@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package suzukisqllite;
+package databaseSample;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,7 +15,7 @@ import javafx.stage.Stage;
  *
  * @author SC
  */
-public class SuzukiSQLlite extends Application {
+public class databaseSample extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {

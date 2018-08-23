@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package suzukisqllite;
+package databaseSample;
 
 import javafx.scene.input.MouseEvent;
 import java.io.IOException;
