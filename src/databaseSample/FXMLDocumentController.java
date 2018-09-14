@@ -66,7 +66,7 @@ public class FXMLDocumentController implements Initializable {
     private Person updataPerson;
     private int updataPersonIndex;
 
-    private Image img = new Image( "topimg/topimg.png" );   
+    private Image img = new Image( "img/topimg.png" );   
     private ImageView imgview = new  ImageView(img);
     
     private Statement smt;
@@ -404,17 +404,8 @@ public class FXMLDocumentController implements Initializable {
         tellColumn.setCellValueFactory(new PropertyValueFactory<Person, String>("tell"));
         memoColumn.setCellValueFactory(new PropertyValueFactory<Person, String>("memo"));
         
-//        idColumn.setMaxWidth(Double.MAX_EXPONENT);
-//        nameColumn.setMaxWidth(Double.MAX_EXPONENT);
-//        adressColumn.setMaxWidth(Double.MAX_EXPONENT);
-//        mailColumn.setMaxWidth(Double.MAX_EXPONENT);
-//        tellColumn.setMaxWidth(Double.MAX_EXPONENT);
-//        memoColumn.setMaxWidth(Double.MAX_EXPONENT);
-//        
         tableV.autosize();
-//        tableV.columnResizePolicyProperty();
-//        tableV.setMaxSize(main.getMaxHeight(), main.getMaxWidth());
-        
+
         tableV.getColumns().add(idColumn);
         tableV.getColumns().add(nameColumn);
         tableV.getColumns().add(adressColumn);
